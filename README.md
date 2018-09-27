@@ -1,4 +1,4 @@
 # Introvert-Web
 
 ### Contributors
-**under construction**
+**This will be a website for the clothing brand, Introvert**
