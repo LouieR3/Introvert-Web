@@ -7,8 +7,8 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Louis Rodriguez, Michael Zacierka",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.3"
@@ -16,5 +16,5 @@
   "devDependencies": {
     "nodemon": "^1.18.4"
   },
-  "description": ""
+  "description": "Website for Introvert clothing"
 }
