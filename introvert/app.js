@@ -2,20 +2,17 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
+const path = require('path');
 
-//use
+//middleware
 app.use(cors());
-app.use(express.static('public'));
-app.use(express.static('public/stylesheets/style.css'));
-
-app.get('/index.html', function(req, res) {
-  res.sendFile( __dirname + "/index.html");
-  console.log("Loaded Index Home Page.");
+app.use(express.static("public"));
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
 //Host Website
 var server = app.listen(5000, () => {
-  var host = server.address().address;
   var port = server.address().port;
-  console.log("Listening on http://%s:%s",host,port);
+  console.log("Listening on http://localhost:%s",port);
 });
