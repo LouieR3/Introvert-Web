@@ -6,8 +6,19 @@
 }
 
 #navbar {
-  background-color: grey;
   border-radius: 5px;
   opacity: 0.8;
-  color: black;
+}
+
+#containerimg {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+.square {
+	width: 30%;
+	background: grey;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1%;
 }
