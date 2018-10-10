@@ -15,24 +15,3 @@
 	margin: 20px auto;
 	max-width: 600px;
 }
-
-.square {
-	width: 30%;
-	background: grey;
-	padding-bottom: 30%;
-	float: left;
-	margin: 1%;
-}
-
-#containerimg {
-    margin: 20px auto;
-    max-width: 600px;
-}
-
-.square {
-    width: 30%;
-    background: grey;
-    padding-bottom: 30%;
-    float: left;
-    margin: 1%;
-}
