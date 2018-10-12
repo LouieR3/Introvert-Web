@@ -1,12 +1,6 @@
 #introvert_logo {
-  display: inline-block;
-  margin-left: 23.5%;
-}
-
-#body_img {
-  display: inline-block;
-  margin: auto auto auto auto;
-  width: 55%;
+  display: block;
+  margin: auto;
 }
 
 #navbar {
@@ -25,8 +19,8 @@ li.nav-item a:hover {
 }
 
 .center {
-  margin-left: 22%;
+  text-align: center;
+  margin-left: auto;
   margin-right: auto;
-  width: 100%;
   padding: 10px;
 }
