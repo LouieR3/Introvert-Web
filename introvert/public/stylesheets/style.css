@@ -1,6 +1,6 @@
 #introvert_logo {
-  display: block;
   margin: auto;
+  margin-top: 10px;
 }
 
 #navbar {
@@ -20,7 +20,4 @@ li.nav-item a:hover {
 
 .center {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
 }
