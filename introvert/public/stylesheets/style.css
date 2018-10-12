@@ -1,6 +1,7 @@
 #introvert_logo {
   margin: auto;
-  margin-top: 10px;
+  margin-bottom: : 15px;
+  margin-top: 20px;
 }
 
 #navbar {
@@ -20,4 +21,10 @@ li.nav-item a:hover {
 
 .center {
   text-align: center;
+}
+
+.text {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 7%;
 }
