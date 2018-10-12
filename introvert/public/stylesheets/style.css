@@ -1,11 +1,11 @@
 #introvert_logo {
   margin: auto;
-  margin-bottom: : 15px;
   margin-top: 20px;
 }
 
 #navbar {
   font-family: "Times New Roman", Times, serif;
+  padding-top: 10px;
   border-radius: 5px;
   opacity: 0.8;
 }
@@ -26,5 +26,4 @@ li.nav-item a:hover {
 .text {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
-  margin-top: 7%;
 }
