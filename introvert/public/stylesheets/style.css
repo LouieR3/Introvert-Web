@@ -19,8 +19,11 @@ li.nav-item a:hover {
   text-shadow: 1px 1px 1px black;
 }
 
-.return  a:hover {
+.return a {
   color: red;
+}
+
+.return a:hover {
   text-shadow: 1px 1px 1px black;
 }
 
