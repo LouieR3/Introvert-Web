@@ -7,28 +7,38 @@
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
   <link rel="shortcut icon" href="/assets/favicon.png"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<header>
+  <div class="center">
+    <a href="index.html">
+      <img src="/assets/Introvert-Logo.png" id="introvert_logo" alt="Introvert Logo" width="138" height="38">
+    </a>
+  </div>
+  <script>
+    $(document).ready(function() {
+      $("#navbar").load("/assets/navbar.html");
+    });
+  </script>
+  <div class="container" id="navbar"></div>
+</header>
 
-<div class="center">
-  <a href="index.html">
-    <img src="/assets/Introvert-Logo.png" id="introvert_logo" alt="Introvert Logo" width="138" height="38">
-  </a>
-</div>
-<script>
-  $(document).ready(function() {
-    $("#navbar").load("/assets/navbar.html");
-  });
-</script>
-<div class="container" id="navbar"></div>
 <body>
   <div class="center" style = "padding: 25px">
     <a href="shop.html">
-      <img src="/assets/city skateboard.jpg" class="img-fluid" alt="Home Picture"/>
+      <img src="/assets/city skateboard.jpg" class="img-fluid" alt="Home Picture">
     </a>
   </div>
 </body>
+
+<footer class="center">
+  <h3><em>Coming Soon</em></h3>
+  <div class="social-media">
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
 
 </html>
