@@ -1,6 +1,6 @@
-#introvert_logo {
-  margin: auto;
-  margin-top: 20px;
+.header {
+    text-align:center;
+    padding-top: 10px;
 }
 
 #navbar {
@@ -14,17 +14,17 @@
   color: black;
 }
 
+.rightbar {
+    float: right;
+    padding-left: 25px;
+}
+
 li.nav-item a:hover {
   color: red;
   text-shadow: 1px 1px 1px black;
 }
 
 .center {
-  text-align: center;
-}
-
-.text {
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
