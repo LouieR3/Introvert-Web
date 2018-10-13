@@ -19,6 +19,15 @@ li.nav-item a:hover {
   text-shadow: 1px 1px 1px black;
 }
 
+.return {
+  color: black;
+}
+
+.return a:hover {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
+
 .center {
   text-align: center;
 }
