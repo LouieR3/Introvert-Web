@@ -1,6 +1,6 @@
-#introvert_logo {
-  margin: auto;
-  margin-top: 20px;
+.header {
+  text-align: center;
+  padding-top: 15px;
 }
 
 #navbar {
