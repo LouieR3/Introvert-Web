@@ -8,9 +8,13 @@
 - [x] get style sheet to work with index file
 - [ ] [social-media ideas](https://bootsnipp.com/tags/social)
 - [ ] Find a background image
-- [ ] footer
+- [X] footer
 - [ ] Instagram style slide shows
 - [ ] Shopping cart UI (Checkout)
-- [ ] Side pages to populate NavBar
-- [ ] move navbar to other file
+- [X] Side pages to populate NavBar
 - [ ] look up .php vs .html files
+- [ ] fix cart's 'Return To Shop' link
+- [ ] fix homepage picture layout
+- [ ] add proper images and formatting to about us
+- [ ] start javascript for shop and CART
+- [ ] add proper info to contact page
