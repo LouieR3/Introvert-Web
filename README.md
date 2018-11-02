@@ -20,3 +20,4 @@
 
 * Let off at styling the figure panes. Next step would be the quick view or product page.
 * Change image on highlight (hover).
+* try different image sizes in figure for shop pics
