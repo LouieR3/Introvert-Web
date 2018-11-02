@@ -6,15 +6,17 @@
 
  ## TO DO
 - [x] get style sheet to work with index file
-- [ ] [social-media ideas](https://bootsnipp.com/tags/social)
+- [X] [social-media ideas](https://bootsnipp.com/tags/social)
 - [ ] Find a background image
 - [X] footer
 - [ ] Instagram style slide shows
 - [ ] Shopping cart UI (Checkout)
 - [X] Side pages to populate NavBar
-- [ ] look up .php vs .html files
-- [ ] fix cart's 'Return To Shop' link
-- [ ] fix homepage picture layout
+- [ ] fix cart's 'Return To Shop' link / Paypal Cart
 - [ ] add proper images and formatting to about us
-- [ ] start javascript for shop and CART
+- [ ] start JavaScript for shop and CART
 - [ ] add proper info to contact page
+- [ ] Contact Us and FAQ page content
+
+* Let off at styling the figure panes. Next step would be the quick view or product page.
+* Change image on highlight (hover).
