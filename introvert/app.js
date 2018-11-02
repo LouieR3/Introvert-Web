@@ -10,10 +10,6 @@ app.use(express.static("public"));
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/public/index.html'));
 });
-
-app.get("/shop/:itemId"), function(req, res) {
-    res.sendFile(path.join(__dirname + '/public/shop/' + res.params));
-});
 //Host Website
 var server = app.listen(5000, () => {
   var port = server.address().port;
