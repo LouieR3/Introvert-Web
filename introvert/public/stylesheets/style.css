@@ -3,6 +3,11 @@
   padding-top: 15px;
 }
 
+body {
+  background-image: url("/assets/noise2.jpg");
+  background-repeat: round;
+}
+
 #navbar {
   font-family: "Times New Roman", Times, serif;
   padding-top: 10px;
