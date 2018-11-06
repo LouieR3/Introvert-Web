@@ -1,0 +1,41 @@
+/*
+.quick-view {
+  background: #DBDBDB;
+  padding: 1em;
+}
+.quick-view li {
+  display: inline-block;
+  padding-right: 15px;
+}
+.quick-view img {
+  display: inline-inline-block;
+}
+*/
+
+.quick-view {
+  visibility: hidden;
+  position: absolute;
+  max-width: 900px;
+  top: 50%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background: #DBDBDB;
+  padding: 1em;
+}
+
+.quick-view li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.quick-view .qv-slider {
+  padding: 10px;
+}
+
+.qv-slider {
+  text-align: center;
+}
+
+.qv-slider img {
+  width: 75%;
+}
